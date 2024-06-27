@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Open+Sans&family=Quicksand&family=Raleway&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  background-image: url(../Assets/Images/backgroundLanding.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 120vh;
+}
+
+.home {
+  padding: 80px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.home .content {
+  color: white;
+  margin-right: 40px;
+}
+
+.home h1 {
+  text-align: start;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: rgb(224, 18, 18);
+}
+
+.home p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.home button,
+.offer .content button {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(224, 18, 18);
+  color: white;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  transition: 0.3s all ease;
+}
+
+.home button:hover {
+  cursor: pointer;
+  background-color: rgb(186, 13, 13);
+  transition: 0.3s all ease;
+}
+
+@media (width <= 600px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .home {
+    width: 400px;
+  }
+  .home .content {
+    padding-top: 40px;
+    width: 300px;
+  }
+
+  .home h1 {
+    font-size: 35px;
+    color: white;
+  }
+
+  .home p {
+    font-size: 15px;
+  }
+}
+
+@media (600px < width <= 768px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .home {
+    width: 400px;
+  }
+  .home .content {
+    padding-top: 40px;
+    width: 300px;
+  }
+
+  .home h1 {
+    font-size: 35px;
+    color: white;
+  }
+
+  .home p {
+    font-size: 15px;
+  }
+}
+
+@media (768px < width <= 992px) {
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .home {
+    width: 700px;
+  }
+
+  .home h1 {
+    color: white;
+  }
+}
+
+@media (992px < width <= 1350px) {
+  .home {
+    width: 90%;
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "menu": [
+    {
+      "name": "Chicken Grill",
+      "description": "Grilled chicken and fresh mushrooms with onions, green peppers, and olives.",
+      "sizes": [
+        { "size": "S", "price": "90 LE" },
+        { "size": "M", "price": "130 LE" },
+        { "size": "L", "price": "165 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Chicken Barbecue",
+      "description": "Barbecue sauce with grilled chicken pieces, green pepper, onions, and olives.",
+      "sizes": [
+        { "size": "S", "price": "95 LE" },
+        { "size": "M", "price": "135 LE" },
+        { "size": "L", "price": "170 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Chicken Ranch",
+      "description": "Ranch dressing with grilled chicken pieces, green pepper, tomatoes, and olives.",
+      "sizes": [
+        { "size": "S", "price": "99 LE" },
+        { "size": "M", "price": "145 LE" },
+        { "size": "L", "price": "175 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Chicken Crispy",
+      "description": "Cheddar cheese sauce with crispy chicken pieces and fresh mushrooms, along with onions, green peppers, and olives.",
+      "sizes": [
+        { "size": "S", "price": "95 LE" },
+        { "size": "M", "price": "135 LE" },
+        { "size": "L", "price": "170 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Chicken Mexicana",
+      "description": "Barbecue sauce with a mix of grilled chicken pieces and hot dogs, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "S", "price": "95 LE" },
+        { "size": "M", "price": "135 LE" },
+        { "size": "L", "price": "170 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Extreme Ranch",
+      "description": "Ranch and cheddar blend with grilled chicken pieces, smoked turkey slices, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "S", "price": "105 LE" },
+        { "size": "M", "price": "150 LE" },
+        { "size": "L", "price": "180 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Chicken Supereme",
+      "description": "A combination of grilled chicken, crispy chicken, smoked turkey slices, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "S", "price": "99 LE" },
+        { "size": "M", "price": "140 LE" },
+        { "size": "L", "price": "175 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Smoked Turkey",
+      "description": "Smoked turkey slices with plenty of onions, green peppers, tomato pieces, and olives.",
+      "sizes": [
+        { "size": "S", "price": "85 LE" },
+        { "size": "M", "price": "125 LE" },
+        { "size": "L", "price": "155 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Cheesy Crispy",
+      "description": "Cheese blend with crispy chicken pieces, smoked meat slices, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "S", "price": "105 LE" },
+        { "size": "M", "price": "150 LE" },
+        { "size": "L", "price": "180 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/chicken_pizza.png",
+      "category": "pizza"
+    },
+    {
+      "name": "Trés Smoky",
+      "description": "A piece of local beef - smoked Turkish slice - onion rings - capers - pickles - tomatoes - Cheddar cheese sauce  - special creamy Tree sauce.",
+      "sizes": [
+        { "size": "S", "price": "95 LE" },
+        { "size": "M", "price": "110 LE" },
+        { "size": "L", "price": "125 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/burger.png",
+      "category": "burger"
+    },
+    {
+      "name": "Trés Cheesy Burger",
+      "description": "Local pure beef patty - Bacon strip - Mozzarella sticks - Texas sauce - Capers - Pickle slices - Tomato - Cheddar cheese sauce - Signature creamy Tree sauce.",
+      "sizes": [
+        { "size": "S", "price": "105 LE" },
+        { "size": "M", "price": "150 LE" },
+        { "size": "L", "price": "180 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/burger.png",
+      "category": "burger"
+    },
+    {
+      "name": "Trés Old Chicken",
+      "description": "Cheese blend with crispy chicken pieces, smoked meat slices, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "", "price": "70 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/burger.png",
+      "category": "burger"
+    },
+    {
+      "name": "Trés Chicken",
+      "description": "Cheese blend with crispy chicken pieces, smoked meat slices, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "", "price": "85 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/burger.png",
+      "category": "burger"
+    },
+    {
+      "name": "Fries",
+      "description": "French Fries with ketchup and mayonnaise",
+      "sizes": [
+        { "size": "", "price": "30 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/fries.png",
+      "category": "fries"
+    },
+    {
+      "name": "Fahita Wrap",
+      "description": "Cheese blend with crispy chicken pieces, smoked meat slices, green pepper, along with onions, and olives.",
+      "sizes": [
+        { "size": "", "price": "75 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/wrap.png",
+      "category": "wrap"
+    },
+    {
+      "name": "Mozzarella Sticks",
+      "description": "",
+      "sizes": [
+        { "size": "", "price": "50 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/sticks.png",
+      "category": "snacks"
+    },
+    {
+      "name": "Trés Mini Burger",
+      "description": "A mini burger with fries and juice.",
+      "sizes": [
+        { "size": "Wihtout Toy", "price": "65 LE" },
+        { "size": "With Toy", "price": "80 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/burger.png",
+      "category": "junior"
+    },
+    {
+      "name": "Chicken Burger",
+      "description": "Crispy chicken with potatoes and juice.",
+      "sizes": [
+        { "size": "Wihtout Toy", "price": "65 LE" },
+        { "size": "With Toy", "price": "80 LE" }
+      ],
+      "imageUrl": "../Assets/Images/Menu/burger.png",
+      "category": "junior"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/home.css">
+    <link rel="stylesheet" href="../Styles/nav.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="../Assets/Images/logo.png">
+    <style>
+        nav a {
+            color: black !important;
+        }
+
+        nav a:hover {
+            color: black !important;
+        }
+
+        nav a::before {
+            background-color: black !important;
+        }
+
+        nav a:hover::before {
+            background-color: black !important;
+        }
+
+        #menuBarButton {
+            color: rgb(224, 18, 18);
+        }
+    </style>
+</head>
+<title>Menu | Trés Burger</title>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../Assets/Images/logo.png">
+            <p>Trés Burger</p>
+        </div>
+        <ul>
+            <i class="fa fa-bars" id="menuBarButton"></i>
+            <li><a href="homePage.html">Home</a></li>
+            <li><a href="menuPage.html">Menu</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="menuBarList">
+        <div class="container">
+            <ul>
+                <li><a href="homePage.html">Home</a></li>
+                <li id="active"><a href="menuPage.html">Menu</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="food">
+        <div class="offers">
+            <h1 id="title">Our Offers</h1>
+            <div class="offers-row">
+                <div class="offer" id="offer1">
+                    <div class="image">
+                        <img src="../Assets/Images/offer1.jpg">
+                    </div>
+                    <div class="content">
+                        <h1>El-Hashtaka Box</h1>
+                        <p>Medium Pizza with French Fries, two brownies and One litre of Spiro Spathis</p>
+                        <button onclick="showPopUp()">Order Now!</button>
+                    </div>
+                </div>
+                <div class="offer" id="offer2">
+                    <div class="image">
+                        <img src="../Assets/Images/offer2.jpg">
+                    </div>
+                    <div class="content">
+                        <h1>Chicken Fit Box</h1>
+                        <p>Grilled chicken burger with Healthy oats bread, Smooked turkey, Carameled Onion, Coleslaw and
+                            Green Cola</p>
+                        <button onclick="showPopUp()">Order Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <h1>Our Menu</h1>
+            <div class="categories">
+                <p class="active" id="all">All</p>
+                <p id="pizza">Pizza</p>
+                <p id="burger">Burger</p>
+                <p id="wrap">Wrap</p>
+                <p id="fries">Fries</p>
+                <p id="snacks">Snacks</p>
+                <p id="junior">Junior Meals</p>
+            </div>
+            <div class="items" id="items">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main-row">
+            <div class="container" id="contact-us">
+                <h1>Contact Us</h1>
+                <div class="row" onclick="goToLink('https://maps.app.goo.gl/SeUqsjhciQ7qHCbF6')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location</p>
+                </div>
+                <div class="row" id="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Call +20 100 119 9523</p>
+                </div>
+                <div class="row"
+                    onclick="goToLink('https://mail.google.com/mail/?view=cm&fs=1&to=tresburger55@gmail.com')">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>tresburger55@gmail.com</p>
+                </div>
+            </div>
+            <div class="container" id="restaurant">
+                <h1>Trés Burger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dicta vitae vero mollitia veritatis
+                    magnam
+                    ea, soluta.</p>
+                <div class="social-media">
+                    <div class="container" onclick="goToLink('https://www.facebook.com/tresburger/?locale=ar_AR')"><i
+                            class="fa-brands fa-facebook-f"></i></div>
+                    <div class="container" onclick="goToLink('https://www.instagram.com/tresburger/')"><i
+                            class="fa-brands fa-instagram"></i></div>
+                    <div class="container" onclick="goToLink('https://www.tiktok.com/@tresburger')"><i
+                            class="fa-brands fa-tiktok"></i></div>
+                </div>
+            </div>
+
+            <div class="container" id="opening">
+                <h1>Opening Hours</h1>
+                <p>Everyday <br> 12:00 PM - 2:00 AM</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Trés Burger. All rights reserved.</p>
+            <p>Website developed by <a href="">Ahmed Mohammed</a>.</p>
+        </div>
+    </footer>
+    <div class="popup">
+        <div class="popup-container">
+            <i class="fa-solid fa-close" id="close-fa-fa" onclick="closePopUp()"></i>
+            <p>For orders, call us at +20 100 119 9523</p>
+        </div>
+    </div>
+    <script src="../Scritps/categories.js"></script>
+    <script src="../Scritps/home.js"></script>
+    <script src="../Scritps/menuBar.js"></script>
+</body>
+
+</html>

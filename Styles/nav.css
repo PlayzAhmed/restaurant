@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Open+Sans&family=Quicksand&family=Raleway&display=swap");
+
+nav {
+  width: 1300px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+nav .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+nav .logo img {
+  width: 70px;
+  height: 70px;
+}
+
+nav .logo p {
+  font-size: 35px;
+  color: rgb(224, 18, 18);
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+nav ul i {
+  display: none !important;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  color: white;
+  transition: 0.3s ease;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover::before {
+  width: 100%;
+  background-color: white;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.menuBarList {
+  display: none;
+  transition: 1.3s ease-out;
+}
+
+@media (width <= 600px) {
+  nav {
+    width: 400px;
+  }
+
+  nav .logo p {
+    font-size: 30px;
+  }
+  
+  nav ul i {
+    display: block !important;
+    padding-left: 180px;
+    font-size: 25px;
+    color: white;
+    z-index: 5;
+    position: none;
+    right: 20px;
+    top: 33px;
+  }
+  
+  nav a {
+    display: none !important;
+  }
+
+  .menuBarList.active {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(154, 20, 20);
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    transition: .5s ease-in;
+  }
+
+  .menuBarList.active ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 20px;
+    list-style: none;
+    margin-top: 100px;
+    padding-right: 30px;
+  }
+
+  .menuBarList.active ul li{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menuBarList.active ul li#active{
+    background-color: rgb(224, 18, 18);
+    border-radius: 20px;
+  }
+  
+  .menuBarList.active ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+
+}
+
+@media (600px < width <= 768px) {
+  nav {
+    width: 90%;
+    justify-content: space-between !important;
+  }
+
+  nav .logo p {
+    font-size: 30px;
+  }
+  
+  nav ul i {
+    display: block !important;
+    padding-left: 191%;
+    font-size: 25px;
+    color: white;
+    z-index: 5;
+    position: none;
+    right: 20px;
+    top: 33px;
+  }
+  
+  nav a {
+    display: none !important;
+  }
+
+  .menuBarList.active {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(154, 20, 20);
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    transition: .5s ease-in;
+  }
+
+  .menuBarList.active ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 20px;
+    list-style: none;
+    margin-top: 100px;
+    padding-right: 30px;
+  }
+
+  .menuBarList.active ul li{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menuBarList.active ul li#active{
+    background-color: rgb(224, 18, 18);
+    border-radius: 20px;
+  }
+  
+  .menuBarList.active ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+
+}
+
+@media (768px < width <= 992px) {
+  nav {
+    width: 750px;
+  }
+  
+  nav .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  nav .logo p {
+    font-size: 30px;
+  }
+}
+
+@media (992px < width <= 1350px) {
+  nav {
+    width: 90%;
+  }
+  
+  nav .logo img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  nav .logo p {
+    font-size: 35px;
+  }
+}

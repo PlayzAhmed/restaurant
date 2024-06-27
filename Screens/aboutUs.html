@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/aboutUs.css">
+    <link rel="stylesheet" href="../Styles/nav.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="../Assets/Images/logo.png">
+</head>
+<title>About Us | Trés Burger</title>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">
+                <img src="../Assets/Images/logo.png">
+                <p>Trés Burger</p>
+            </div>
+            <ul>
+                <i class="fa fa-bars" id="menuBarButton"></i>
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="menuPage.html">Menu</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menuBarList">
+            <div class="container">
+                <ul>
+                    <li><a href="homePage.html">Home</a></li>
+                    <li><a href="menuPage.html">Menu</a></li>
+                    <li id="active"><a href="aboutUs.html">About us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="home">
+            <div class="content">
+                <h1>Trés Burger Story</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ipsa eligendi sapiente laboriosam
+                    unde nam suscipit quam odio! Corrupti repellat magnam dignissimos sed tenetur commodi illum
+                    excepturi similique sequi numquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                    deserunt possimus, dignissimos ea iste nulla ad delectus ipsa quae molestias omnis, qui repellat
+                    aspernatur fuga quod quia? Laboriosam, dignissimos quisquam. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Veritatis voluptate, consectetur ea non natus necessitatibus excepturi nemo
+                    facilis commodi voluptas accusamus id ut praesentium dicta, expedita, repudiandae officiis
+                    reiciendis veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam accusamus porro
+                    minima temporibus amet eaque excepturi vitae quaerat? Nam omnis iusto atque repellendus
+                    exercitationem, repudiandae labore. Corrupti id nemo tenetur.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="main-row">
+            <div class="container" id="contact-us">
+                <h1>Contact Us</h1>
+                <div class="row" onclick="goToLink('https://maps.app.goo.gl/SeUqsjhciQ7qHCbF6')">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Location</p>
+                </div>
+                <div class="row" id="phone">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>Call +20 100 119 9523</p>
+                </div>
+                <div class="row"
+                    onclick="goToLink('https://mail.google.com/mail/?view=cm&fs=1&to=tresburger55@gmail.com')">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>tresburger55@gmail.com</p>
+                </div>
+            </div>
+            <div class="container" id="restaurant">
+                <h1>Trés Burger</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo dicta vitae vero mollitia veritatis
+                    magnam
+                    ea, soluta.</p>
+                <div class="social-media">
+                    <div class="container" onclick="goToLink('https://www.facebook.com/tresburger/?locale=ar_AR')"><i
+                            class="fa-brands fa-facebook-f"></i></div>
+                    <div class="container" onclick="goToLink('https://www.instagram.com/tresburger/')"><i
+                            class="fa-brands fa-instagram"></i></div>
+                    <div class="container" onclick="goToLink('https://www.tiktok.com/@tresburger')"><i
+                            class="fa-brands fa-tiktok"></i></div>
+                </div>
+            </div>
+
+            <div class="container" id="opening">
+                <h1>Opening Hours</h1>
+                <p>Everyday <br> 12:00 PM - 2:00 AM</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Trés Burger. All rights reserved.</p>
+            <p>Website developed by <a href="">Ahmed Mohammed</a>.</p>
+        </div>
+    </footer>
+    <script src="../Scritps/home.js"></script>
+    <script src="../Scritps/menuBar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Open+Sans&family=Quicksand&family=Raleway&display=swap");
+
+body {
+  background: url(../Assets/Images/backgroundFooter.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+nav .logo p {
+  color: #ffbe33 !important;
+}
+
+footer {
+  padding-top: 50px;
+}
+
+.main-row {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.main-row .container {
+  width: 400px;
+  height: 250px;
+}
+
+#contact-us h1 {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+#contact-us .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s all ease;
+}
+
+#contact-us .row:hover {
+  color: #ffbe33;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+#contact-us p,
+#contact-us i {
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+#phone p::after {
+  content: "";
+  width: 0px;
+  color: white !important;
+  height: 0px;
+  position: relative;
+  top: -20px;
+  left: 156.5px;
+  display: none;
+  border: 10px solid;
+  border-color: transparent #ffbe33 transparent transparent;
+}
+
+#phone p::before {
+  content: "Text Copied!";
+  text-align: center;
+  padding-top: 10px;
+  font-size: 9px;
+  width: 80px;
+  height: 20px;
+  background-color: #ffbe33;
+  position: relative;
+  top: 24px;
+  left: 170px;
+  border-radius: 5px;
+  display: none;
+  color: white !important;
+}
+
+#phone p.active::after,
+#phone p.active::before {
+  display: block;
+}
+
+#phone p.active::after:hover,
+#phone p.active::before:hover {
+  display: block;
+  color: white !important;
+}
+
+#restaurant h1 {
+  color: #ffbe33;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#restaurant p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#restaurant .social-media {
+  width: 200px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#restaurant .social-media .container {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.3s all ease;
+}
+
+#restaurant .social-media i {
+  font-size: 20px;
+  display: block;
+  color: red;
+}
+
+#restaurant .social-media .container:nth-child(1):hover i {
+  color: white;
+}
+
+#restaurant .social-media .container:nth-child(1):hover {
+  background-color: #1877f2;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+#restaurant .social-media .container:nth-child(2):hover i {
+  color: white;
+}
+
+#restaurant .social-media .container:nth-child(2):hover {
+  cursor: pointer;
+  background-image: url(../Assets/Images/insta.png);
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s all ease;
+}
+
+#restaurant .social-media .container:nth-child(3):hover i {
+  color: white;
+}
+#restaurant .social-media .container:nth-child(3):hover {
+  background-color: #010101;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+#opening h1 {
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+#opening p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+footer .copyright {
+  margin-top: 70px;
+  color: white;
+  font-family: "Open Sans", serif;
+  font-size: 13px;
+}
+
+footer .copyright p {
+  margin: 0;
+}
+
+footer .copyright a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all ease;
+}
+
+footer .copyright a:hover {
+  color: #ffbe33;
+  transition: 0.3s all ease;
+}
+
+@media (width <= 992px) {
+  body,
+  html {
+    overflow: hidden;
+  }
+
+  footer {
+    padding-top: 20px;
+  }
+
+  .main-row {
+    flex-direction: column;
+  }
+
+  .main-row .container {
+    height: auto;
+  }
+
+  footer .copyright {
+    margin-top: 90px;
+  }
+}
+
+@media (992px < width <= 1350px) {
+  .main-row {
+    width: 90%;
+  }
+}
